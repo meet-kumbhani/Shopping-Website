@@ -1,0 +1,228 @@
+{
+  "phones": [
+    {
+      "id": "1",
+      "name": "iPhone X",
+      "model": "S20-200",
+      "price": 44999,
+      "ram": "6GB",
+      "image": "https://vlebazaar.in/image/cache/catalog/----imagsweb/ipx-550x550.jpeg"
+    },
+    {
+      "id": "2",
+      "name": "Galaxy S20",
+      "model": "S20-200",
+      "price": 59999,
+      "ram": "8GB",
+      "image": "https://m.media-amazon.com/images/I/81vDZyJQ-4L._SY741_.jpg"
+    },
+    {
+      "id": "3",
+      "name": "OnePlus 9",
+      "model": "OP9-300",
+      "price": 67499,
+      "ram": "12GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/z/s/-original-imagdh23vthazmbw.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "4",
+      "name": "iPhone 13",
+      "model": "IP13-400",
+      "price": 82499,
+      "ram": "8GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/2/y/o/iphone-13-mlpk3hn-a-apple-original-imag6vpyur6hjngg.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "5",
+      "name": "Pixel 6",
+      "model": "PXL6-500",
+      "price": 52499,
+      "ram": "6GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/i/d/-original-imagpgx4erjqnpzx.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "6",
+      "name": "Huawei P40",
+      "model": "P40-600",
+      "price": 44999,
+      "ram": "6GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/9/b/t/p40-p662l-itel-original-imagvjf6rggy8txm.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "7",
+      "name": "Sony Xperia 5",
+      "model": "X5-700",
+      "price": 63749,
+      "ram": "8GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/j8t35ow0/mobile/c/r/w/sony-xperia-xa1-plus-g3416-original-imaeym7pvphgz8ab.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "8",
+      "name": "Moto G Power",
+      "model": "MG-800",
+      "price": 22499,
+      "ram": "4GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kl9rssw0/mobile/r/i/z/e7-power-pamh0013in-pamh0011in-pamh0016in-motorola-original-imagyfu4dh6jgbgx.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "9",
+      "name": "LG Velvet",
+      "model": "LV-900",
+      "price": 37499,
+      "ram": "6GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kgsb1jk0/mobile/8/q/h/lg-velvet-dual-screen-lmg910emw-original-imafwy7yprparkef.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "10",
+      "name": "Xiaomi Mi 11",
+      "model": "MI11-1000",
+      "price": 59999,
+      "ram": "12GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/q/q/-original-imaggcz6fyt9yayh.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "11",
+      "name": "Samsung A52",
+      "model": "A52-1100",
+      "price": 37499,
+      "ram": "6GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kwcfngw0/mobile/y/4/v/galaxy-a52s-5g-a528blggins-samsung-original-imag9fh4gkkharye.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "12",
+      "name": "Google Pixel 5a",
+      "model": "P5a-1200",
+      "price": 33749,
+      "ram": "6GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/z/b/d/-original-imagpgx48f4szdvf.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "13",
+      "name": "iPhone SE",
+      "model": "IPSE-1300",
+      "price": 29999,
+      "ram": "4GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/l0igvww0/mobile/l/h/4/-original-imagca67uzxhrkgd.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "14",
+      "name": "OnePlus Nord",
+      "model": "OPN-1400",
+      "price": 44999,
+      "ram": "8GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/r/b/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj42cctpjjze.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "15",
+      "name": "Motorola Edge",
+      "model": "ME-1500",
+      "price": 52499,
+      "ram": "6GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/r/r/edge-40-neo-payj0002in-motorola-original-imagtkzh8zrvp3uj.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "16",
+      "name": "Sony Xperia 1 II",
+      "model": "X1II-1600",
+      "price": 74999,
+      "ram": "8GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/mobile/8/p/g/sony-xperia-e-4g-dual-original-imae6j9sz4zvjku9.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "17",
+      "name": "Redmi Note 10",
+      "model": "RN10-1700",
+      "price": 18749,
+      "ram": "4GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kua4r680/mobile/g/p/g/m2002f4lg-m1910f4g-redmi-note-10-lite-redmi-original-imag7f7fpmee9gje.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "18",
+      "name": "Samsung Galaxy M32",
+      "model": "M32-1800",
+      "price": 24749,
+      "ram": "6GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/2/e/-original-imagjhqzefepgn4t.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "19",
+      "name": "iPhone 12 Mini",
+      "model": "IP12M-1900",
+      "price": 52499,
+      "ram": "4GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/n/p/d/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfwkfrerak.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "20",
+      "name": "Google Pixel 4a",
+      "model": "P4a-2000",
+      "price": 37499,
+      "ram": "6GB",
+      "image": "https://cellularsavings.ca/cdn/shop/products/2d7713d3-5c27-483f-bad6-e235ed978965.711592bed9b1648278585da601884677_1200x1200.jpg?v=1652220526"
+    },
+    {
+      "id": "21",
+      "name": "OnePlus 8T",
+      "model": "OP8T-2100",
+      "price": 59999,
+      "ram": "12GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/r/b/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj42cctpjjze.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "22",
+      "name": "Xiaomi Redmi 9",
+      "model": "R9-2200",
+      "price": 13499,
+      "ram": "3GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/f/w/-original-imags37hy7uz2usv.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "23",
+      "name": "LG G8 ThinQ",
+      "model": "G8-2300",
+      "price": 33749,
+      "ram": "6GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/jzhb24w0pkrrdj/mobile-refurbished/c/g/6/v40-thinq-128-b-lmv405ebw-aindpm-lg-6-original-imaff986zfhazxer.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "24",
+      "name": "Motorola Moto E7",
+      "model": "ME7-2400",
+      "price": 9749,
+      "ram": "2GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/kesv0y80/mobile/d/z/u/motorola-e7-plus-pakx0012in-original-imafved7zdzgd7hq.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "25",
+      "name": "Samsung Galaxy A32",
+      "model": "A32-2500",
+      "price": 20999,
+      "ram": "4GB",
+      "image": "https://cdn1.smartprix.com/rx-imJFzSZ34-w420-h420/samsung-galaxy-a32-5.jpg"
+    },
+    {
+      "id": "26",
+      "name": "iPhone 11 Pro",
+      "model": "IP11P-2600",
+      "price": 82499,
+      "ram": "6GB",
+      "image": "https://rukminim2.flixcart.com/image/416/416/k2jbyq80pkrrdj/mobile-refurbished/z/a/f/iphone-11-pro-max-256-u-mwhm2hn-a-apple-0-original-imafkg2ftc5cze5n.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "27",
+      "name": "Google Pixel 3a",
+      "model": "P3a-2700",
+      "price": 29999,
+      "ram": "4GB",
+      "image": "https://detec.in/cdn/shop/products/100_057a4137-b3ce-4123-a1c8-285eb62bf0b9.jpg?v=1645252785"
+    },
+    {
+      "id": "28",
+      "name": "OnePlus 7 Pro",
+      "model": "OP7P-2800",
+      "price": 67499,
+      "ram": "8GB",
+      "image": "https://refurbished.techyuga.com/wp-content/uploads/2021/09/Refurbished-OnePlus-7-Pro.jpg"
+    }
+  ]
+}
