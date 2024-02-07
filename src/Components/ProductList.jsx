@@ -12,7 +12,7 @@ let ProductList = () => {
   const [ramfilter, setRamfilter] = useState("All");
   const [currentPage, setCurrentPage] = useState(1);
 
-  const itemsperpage = 4;
+  let itemsperpage = 8;
 
   useEffect(() => {
     setPhones(phoneData.phones);
@@ -22,7 +22,7 @@ let ProductList = () => {
   let handleSearch = () => {
     let filterphones = phones.filter((phone) => {
       let phonename = phone.name.toLowerCase().includes(search.toLowerCase());
-      let phoneramfilter = ramfilter === "All" || phone.ram === ramfilter;
+      let phoneramfilter = ramfilter === "All" || phone.storage === ramfilter;
       return phoneramfilter && phonename;
     });
     setFilteredPhones(filterphones);
@@ -53,22 +53,19 @@ let ProductList = () => {
     );
   }
 
-  const indexOfLastPhone = currentPage * itemsperpage;
-  const indexOfFirstPhone = indexOfLastPhone - itemsperpage;
-  const currentPhones = filteredPhones.slice(
-    indexOfFirstPhone,
-    indexOfLastPhone
-  );
+  let lastitemindex = currentPage * itemsperpage;
+  let firstitemindex = lastitemindex - itemsperpage;
+  let currentphone = filteredPhones.slice(firstitemindex, lastitemindex);
 
-  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  let page = (pageno) => setCurrentPage(pageno);
 
   return (
     <>
       <div className="container-fluid bg-dark">
         <div className="py-3 d-flex justify-content-between align-items-center count-search">
           <h3 className="text-white">
-            Showing {indexOfFirstPhone + 1} to{" "}
-            {Math.min(indexOfLastPhone, filteredPhones.length)} of{" "}
+            Showing {firstitemindex + 1} to{" "}
+            {Math.min(lastitemindex, filteredPhones.length)} of{" "}
             {filteredPhones.length} Results For "Phone"
           </h3>
           <Form className="d-flex">
@@ -85,11 +82,15 @@ let ProductList = () => {
               value={ramfilter}
               onChange={(e) => setRamfilter(e.target.value)}
             >
-              <option value="All">All RAM</option>
+              <option value="All">All</option>
               <option value="2GB">2GB</option>
               <option value="4GB">4GB</option>
               <option value="6GB">6GB</option>
               <option value="8GB">8GB</option>
+              <option value="16GB">16GB</option>
+              <option value="32GB">32GB</option>
+              <option value="64GB">64GB</option>
+              <option value="128GB">128GB</option>
             </Form.Select>
             <Button variant="primary" onClick={handleSearch}>
               Search
@@ -98,7 +99,7 @@ let ProductList = () => {
         </div>
 
         <div className="row">
-          {currentPhones.map((phone) => (
+          {currentphone.map((phone) => (
             <div className="col-md-4 col-lg-3 col-sm-6 mb-4" key={phone.id}>
               <Link
                 to={`/productdetails/${phone.id}`}
@@ -116,7 +117,7 @@ let ProductList = () => {
                     <Card.Title>
                       <p>{phone.name}</p>
                       <p>{phone.model}</p>
-                      <p>{phone.ram}</p>
+                      <p>{phone.storage}</p>
                     </Card.Title>
                     <Card.Text>
                       <h3>Price: ₹{phone.price}</h3>
@@ -138,7 +139,7 @@ let ProductList = () => {
               <Pagination.Item
                 key={index + 1}
                 active={index + 1 === currentPage}
-                onClick={() => paginate(index + 1)}
+                onClick={() => page(index + 1)}
               >
                 {index + 1}
               </Pagination.Item>

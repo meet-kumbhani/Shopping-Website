@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
-const MyNavbar = () => {
+const MyNavbar = ({ cartlength }) => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary px-2">
       <Navbar.Brand to="/">
@@ -25,6 +25,9 @@ const MyNavbar = () => {
           </Link>
         </Nav>
         <Link to="/cart" className="nav-link">
+          <span className="position-absolute translate-middle badge rounded-pill bg-danger">
+            {cartlength.length}
+          </span>
           <AddShoppingCartIcon /> Cart
         </Link>
       </Navbar.Collapse>

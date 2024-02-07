@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import { useParams } from "react-router-dom";
 import phoneData from "../phonedata.json";
 
-let ProductDetails = () => {
+let ProductDetails = ({ addToCart }) => {
+  const [addcart, setaddcart] = useState(false);
+
   let { id } = useParams();
 
   let phoneDetails = phoneData.phones.find((phone) => phone.id === id);
@@ -15,6 +17,16 @@ let ProductDetails = () => {
       />
     );
   }
+
+  const handleAddToCart = () => {
+    if (!addcart) {
+      addToCart(phoneDetails);
+      setaddcart(true);
+      // let existingCart = JSON.parse(localStorage.getItem("cart")) || [];
+      // let updatedCart = [...existingCart, phoneDetails];
+      // localStorage.setItem("cart", JSON.stringify(updatedCart));
+    }
+  };
 
   return (
     <>
@@ -31,7 +43,9 @@ let ProductDetails = () => {
 
               <div className="buttons d-flex mt-4">
                 <button className="buynow-btn me-2">Buy Now</button>
-                <button className="cart-btn">Add To cart</button>
+                <button className="cart-btn" onClick={handleAddToCart}>
+                  Add To cart
+                </button>
               </div>
             </div>
           </div>
@@ -40,10 +54,10 @@ let ProductDetails = () => {
               <h2>{phoneDetails.fullname}</h2>
               <h5>Model: {phoneDetails.model}</h5>
               <h5>{phoneDetails.review}</h5>
-              <h5>Price: ₹{phoneDetails.fullprice}</h5>
+              <h5>Price: ₹{phoneDetails.price} 10% Off</h5>
               <h5>PackingFee: ₹{phoneDetails.packaging_fee}</h5>
 
-              <h3 className="mt-5">Offers</h3>
+              <h2 className="mt-5">Offers</h2>
 
               <h5>{phoneDetails.offers}</h5>
             </div>
