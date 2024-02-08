@@ -8,7 +8,7 @@ import Mynavbar from './Components/Navbar'
 import './App.css'
 
 function App() {
-  let [cart, setcart] = useState([]);
+  const [cart, setcart] = useState([]);
 
   useEffect(() => {
     let cartlen = JSON.parse(localStorage.getItem("cart"))

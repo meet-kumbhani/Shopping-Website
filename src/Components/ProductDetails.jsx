@@ -65,17 +65,12 @@ let ProductDetails = ({ addToCart }) => {
 
   return (
     <>
-      <div className="container mt-5 mb-3">
+      <div className="container mb-3">
         <div className="row">
-          <div className="col-md-12 col-lg-6 col-sm-12">
+          <div className="col-md-12 col-lg-6 col-sm-12 mt-5">
             <div className="image-part">
-              <img
-                src={phoneDetails.image}
-                alt=""
-                width={"70%"}
-                height={"550px"}
-              />
-              <div className="buttons d-flex mt-4">
+              <img src={phoneDetails.image} alt="" className=" w-70 h-100" />
+              <div className="buttons mt-4">
                 {!addcart ? (
                   <>
                     <button className="buynow-btn me-2">Buy Now</button>
@@ -86,7 +81,7 @@ let ProductDetails = ({ addToCart }) => {
                 ) : (
                   <>
                     <button className="buynow-btn me-2">Buy Now</button>
-                    <h6>
+                    <h6 className="quntity-btn">
                       Quantity:-
                       <RemoveCircleOutlineIcon
                         fontSize="small"
@@ -105,7 +100,7 @@ let ProductDetails = ({ addToCart }) => {
               </div>
             </div>
           </div>
-          <div className="col-md-12 col-lg-6 col-sm-12">
+          <div className="col-md-12 col-lg-6 col-sm-12 mt-5">
             <div className="discription-part">
               <h2>{phoneDetails.fullname}</h2>
               <h5>Model: {phoneDetails.model}</h5>

@@ -1,22 +1,37 @@
 .buynow-btn {
   padding: 18px 8px;
   border-radius: 50px;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   border: none;
   float: left;
   background: orange;
   color: white;
-  width: 40%;
+  width: 30%;
+  height: 50%;
 }
 
 .cart-btn {
-  width: 40%;
+  width: 30%;
+  height: 50%;
   padding: 18px 8px;
   border-radius: 50px;
   background: #fb641b;
-  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
   border: none;
   color: #fff;
+}
+
+.quntity-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 50%;
+  padding: 18px 8px;
+  border-radius: 50px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  color: #fff;
+  background-color: #39ac31;
 }
 
 .count-search {

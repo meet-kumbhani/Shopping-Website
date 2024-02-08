@@ -35,9 +35,33 @@ const Cart = ({ cart, setter }) => {
     setter(updatevalues);
   };
 
+  let removeItem = (itemId) => {
+    let updatedValues = count.filter((item) => item.id !== itemId);
+    localStorage.setItem("cart", JSON.stringify(updatedValues));
+    setCount(updatedValues);
+    setter(updatedValues);
+  };
+
   let allitemtotal = cart.reduce((total, item) => {
     return total + item.price * item.quantity;
   }, 0);
+
+  if (!allitemtotal) {
+    return (
+      <>
+        <div className="d-flex justify-content-center mt-4">
+          <img
+            src="https://rukminim2.flixcart.com/www/800/800/promos/16/05/2019/d438a32e-765a-4d8b-b4a6-520b560971e8.png?q=90"
+            alt=""
+            className="h-50 w-50"
+          />
+        </div>
+
+        <h2 className="text-center">Your Cart is empty</h2>
+        <h5 className="text-center">Shop today's deals</h5>
+      </>
+    );
+  }
 
   return (
     <>
@@ -76,7 +100,10 @@ const Cart = ({ cart, setter }) => {
 
                 <h4>Total:- ₹{item.price * item.quantity}</h4>
 
-                <button className="btn btn-outline-danger rounded-pill">
+                <button
+                  className="btn btn-outline-danger rounded-pill"
+                  onClick={() => removeItem(item.id)}
+                >
                   Remove item
                 </button>
               </div>
