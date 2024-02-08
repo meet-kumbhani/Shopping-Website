@@ -1,13 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import phoneData from "../phonedata.json";
+import ControlPointIcon from "@mui/icons-material/ControlPoint";
+import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
 
 let ProductDetails = ({ addToCart }) => {
   const [addcart, setaddcart] = useState(false);
+  const [quantity, setQuantity] = useState(1);
 
   let { id } = useParams();
-
   let phoneDetails = phoneData.phones.find((phone) => phone.id === id);
+
+  useEffect(() => {
+    let exist = JSON.parse(localStorage.getItem("cart")) || [];
+    let foundItem = exist.find((item) => item.id === phoneDetails.id);
+    if (foundItem) {
+      setaddcart(true);
+      setQuantity(foundItem.quantity);
+    }
+  }, [phoneDetails.id]);
 
   if (!phoneDetails) {
     return (
@@ -18,14 +29,38 @@ let ProductDetails = ({ addToCart }) => {
     );
   }
 
-  const handleAddToCart = () => {
+  let handleAddToCart = () => {
     if (!addcart) {
-      addToCart(phoneDetails);
+      addToCart({ ...phoneDetails, quantity });
       setaddcart(true);
-      // let existingCart = JSON.parse(localStorage.getItem("cart")) || [];
-      // let updatedCart = [...existingCart, phoneDetails];
-      // localStorage.setItem("cart", JSON.stringify(updatedCart));
+      let existingCart = JSON.parse(localStorage.getItem("cart")) || [];
+      let updatedCart = [...existingCart, { ...phoneDetails, quantity }];
+      localStorage.setItem("cart", JSON.stringify(updatedCart));
     }
+  };
+
+  let increse = () => {
+    setQuantity(quantity + 1);
+    updatelocalstorage(quantity + 1);
+  };
+
+  let decrese = () => {
+    if (quantity > 1) {
+      setQuantity(quantity - 1);
+      updatelocalstorage(quantity - 1);
+    }
+  };
+
+  let updatelocalstorage = (updatedQuantity) => {
+    let existdata = JSON.parse(localStorage.getItem("cart")) || [];
+    let updatedcartdata = existdata.map((item) => {
+      if (item.id === phoneDetails.id) {
+        return { ...item, quantity: updatedQuantity };
+      } else {
+        return item;
+      }
+    });
+    localStorage.setItem("cart", JSON.stringify(updatedcartdata));
   };
 
   return (
@@ -40,12 +75,33 @@ let ProductDetails = ({ addToCart }) => {
                 width={"70%"}
                 height={"550px"}
               />
-
               <div className="buttons d-flex mt-4">
-                <button className="buynow-btn me-2">Buy Now</button>
-                <button className="cart-btn" onClick={handleAddToCart}>
-                  Add To cart
-                </button>
+                {!addcart ? (
+                  <>
+                    <button className="buynow-btn me-2">Buy Now</button>
+                    <button className="cart-btn" onClick={handleAddToCart}>
+                      Add To Cart
+                    </button>
+                  </>
+                ) : (
+                  <>
+                    <button className="buynow-btn me-2">Buy Now</button>
+                    <h6>
+                      Quantity:-
+                      <RemoveCircleOutlineIcon
+                        fontSize="small"
+                        className="me-2 ms-2"
+                        onClick={decrese}
+                      />
+                      {quantity}
+                      <ControlPointIcon
+                        fontSize="small"
+                        className="ms-2"
+                        onClick={increse}
+                      />
+                    </h6>
+                  </>
+                )}
               </div>
             </div>
           </div>

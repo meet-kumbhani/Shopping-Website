@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import { Link } from "react-router-dom";
 
-const MyNavbar = ({ cartlength }) => {
+const Mynavbar = ({ length }) => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary px-2">
       <Navbar.Brand to="/">
@@ -26,7 +26,7 @@ const MyNavbar = ({ cartlength }) => {
         </Nav>
         <Link to="/cart" className="nav-link">
           <span className="position-absolute translate-middle badge rounded-pill bg-danger">
-            {cartlength.length}
+            {length}
           </span>
           <AddShoppingCartIcon /> Cart
         </Link>
@@ -35,4 +35,4 @@ const MyNavbar = ({ cartlength }) => {
   );
 };
 
-export default MyNavbar;
+export default Mynavbar;

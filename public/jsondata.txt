@@ -1,237 +1,99 @@
-{
-  "phones": [
-    {
-      "id": "1",
-      "name": "iPhone X",
-      "model": "S20-200",
-      "price": 44999,
-      "ram": "6GB",
-      "image": "https://vlebazaar.in/image/cache/catalog/----imagsweb/ipx-550x550.jpeg",
-      "fullname":"iPhone X (Space Gray, 64GB) (6GB RAM)",
-      "fullprice": "44,999 10% off",
-      "packaging_fee": "+ ₹99 Secured Packaging Fee",
-      "offers": [
-        "Bank Offer: 5% Cashback on Flipkart Axis Bank Card (*T&C*)",
-        "Bank Offer: ₹1000 Off On Selected Bank Credit and Debit Card Transactions (*T&C*)",
-        "No Cost EMI: Starting from ₹3,750/month (*T&C*)",
-        "Special Price: Get extra ₹5000 off (price inclusive of cashback/coupon) (*T&C*)"
-      ]
-    },
-    {
-      "id": "2",
-      "name": "Galaxy S20",
-      "model": "S20-200",
-      "price": 59999,
-      "ram": "8GB",
-      "image": "https://m.media-amazon.com/images/I/81vDZyJQ-4L._SY741_.jpg"
-    },
-    {
-      "id": "3",
-      "name": "Apple Watch Ultra",
-      "model": "Ultra A8+",
-      "price": 79999,
-      "ram": "2GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/t/e/y/-original-imagtcnuq6xsnhhe.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "4",
-      "name": "iPhone 13",
-      "model": "IP13-400",
-      "price": 82499,
-      "ram": "8GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/ktketu80/mobile/2/y/o/iphone-13-mlpk3hn-a-apple-original-imag6vpyur6hjngg.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "5",
-      "name": "Pixel 6",
-      "model": "PXL6-500",
-      "price": 52499,
-      "ram": "6GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/n/i/d/-original-imagpgx4erjqnpzx.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "6",
-      "name": "Boult Cosmic",
-      "model": "R 1.3 HD",
-      "price": 1199,
-      "ram": "2GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/d/x/e/-original-imagux8kshztmczh.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "7",
-      "name": "Sony Xperia 5",
-      "model": "X5-700",
-      "price": 63749,
-      "ram": "8GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/j8t35ow0/mobile/c/r/w/sony-xperia-xa1-plus-g3416-original-imaeym7pvphgz8ab.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "8",
-      "name": "Samsung",
-      "model": "Watch 4",
-      "price": 10999,
-      "ram": "2GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/q/7/s/-original-imagxp8uzzegnddr.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "9",
-      "name": "OnePlus",
-      "model": "Bullets Wireless Z2",
-      "price": 1499,
-      "ram": "Deep Bass",
-      "image": "https://rukminim2.flixcart.com/image/416/416/l0sgyvk0/headphone/e/w/c/buds-z2-oneplus-original-imagcg5gfpcg5ndv.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "10",
-      "name": "Xiaomi Mi 11",
-      "model": "MI11-1000",
-      "price": 59999,
-      "ram": "12GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/q/q/-original-imaggcz6fyt9yayh.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "11",
-      "name": "Fire-Boltt",
-      "model": "Supernova 1.78",
-      "price": 1799,
-      "ram": "2GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/a/2/r/-original-imagxp8tpgm2ufxh.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "12",
-      "name": "Google Pixel 5a",
-      "model": "P5a-1200",
-      "price": 33749,
-      "ram": "6GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/z/b/d/-original-imagpgx48f4szdvf.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "13",
-      "name": "Boat",
-      "model": "Rockerz 110",
-      "price": 29999,
-      "ram": "40 HRS Playback,",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/r/r/4/-original-imaguggqedr3ypyx.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "14",
-      "name": "OnePlus Nord",
-      "model": "OPN-1400",
-      "price": 44999,
-      "ram": "8GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/r/b/nord-ce-3-lite-5g-ce2099-oneplus-original-imagzj42cctpjjze.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "15",
-      "name": "Motorola Edge",
-      "model": "ME-1500",
-      "price": 52499,
-      "ram": "6GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/r/r/edge-40-neo-payj0002in-motorola-original-imagtkzh8zrvp3uj.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "16",
-      "name": "Apple Airpods",
-      "model": "Airpods Pro",
-      "price": 19990,
-      "ram": "2x more Active Noise Cancellation ",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/e/a/f/-original-imagtc44nk4b3hfg.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "17",
-      "name": "Redmi Note 10",
-      "model": "RN10-1700",
-      "price": 18749,
-      "ram": "4GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/kua4r680/mobile/g/p/g/m2002f4lg-m1910f4g-redmi-note-10-lite-redmi-original-imag7f7fpmee9gje.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "18",
-      "name": "Chaebol",
-      "model": "Gaming Pro X90",
-      "price": 949,
-      "ram": "Gaming Mode 5.30A",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/b/k/f/new-super-budspro-t80-enc-gaming-super-low-latency-35-ms-upto-50-original-imagwu5z46xhuqxk.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "19",
-      "name": "iPhone 12 Mini",
-      "model": "IP12M-1900",
-      "price": 52499,
-      "ram": "4GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/kg8avm80/mobile/n/p/d/apple-iphone-12-mini-dummyapplefsn-original-imafwgbfwkfrerak.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "20",
-      "name": "JBL",
-      "model": "BT 5.3LE",
-      "price": 3999,
-      "ram": "57Hr Playtime",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/m/a/n/-original-imagrvejgbfpayz6.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "21",
-      "name": "Apple",
-      "model": "OP8T-2100",
-      "price": 899,
-      "ram": "Type-C Crystal Sound",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/q/e/v/type-c-crystal-sound-wired-headphones-for-oneplus-oppo-realme-original-imagvbwhan2ntmza.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "22",
-      "name": "Xiaomi Redmi 9",
-      "model": "R9-2200",
-      "price": 13499,
-      "ram": "3GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/h/f/w/-original-imags37hy7uz2usv.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "23",
-      "name": "LG G8 ThinQ",
-      "model": "G8-2300",
-      "price": 33749,
-      "ram": "6GB",
-      "image": "https://rukminim2.flixcart.com/image/416/416/jzhb24w0pkrrdj/mobile-refurbished/c/g/6/v40-thinq-128-b-lmv405ebw-aindpm-lg-6-original-imaff986zfhazxer.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "24",
-      "name": "Fire-Boltt",
-      "model": "Starlight 2.01",
-      "price": 1699,
-      "ram": "Stainless Steel Luxury",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/smartwatch/h/g/z/-original-imagxp8ugehwpqhp.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "25",
-      "name": "Samsung Galaxy A32",
-      "model": "A32-2500",
-      "price": 20999,
-      "ram": "4GB",
-      "image": "https://cdn1.smartprix.com/rx-imJFzSZ34-w420-h420/samsung-galaxy-a32-5.jpg"
-    },
-    {
-      "id": "26",
-      "name": "Skywings",
-      "model": "M-19",
-      "price": 499,
-      "ram": "Deep Bass",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/n/y/e/m19-skywings-original-imagxkzyfhuyhkfz.jpeg?q=70&crop=false"
-    },
-    {
-      "id": "27",
-      "name": "Google Pixel 3a",
-      "model": "P3a-2700",
-      "price": 29999,
-      "ram": "4GB",
-      "image": "https://detec.in/cdn/shop/products/100_057a4137-b3ce-4123-a1c8-285eb62bf0b9.jpg?v=1645252785"
-    },
-    {
-      "id": "28",
-      "name": "Blaupunkt",
-      "model": "BTW12",
-      "price": 1199,
-      "ram": "30H Playtime",
-      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/t/k/f/btw12-khrome-bassbuds-truly-wireless-bt-earbuds-low-latency-30h-original-imagrej6gqzzbzzg.jpeg?q=70&crop=false"
+import React, { useState, useEffect } from "react";
+import ControlPointIcon from "@mui/icons-material/ControlPoint";
+import RemoveCircleOutlineIcon from "@mui/icons-material/RemoveCircleOutline";
+
+const Cart = () => {
+  let [cartdata, setCartdata] = useState([]);
+
+  useEffect(() => {
+    let retrivedata = JSON.parse(localStorage.getItem("cart")) || [];
+    let updatedcartdata = retrivedata.map((item) => ({
+      ...item,
+      quantity: item.quantity || 1,
+    }));
+    setCartdata(updatedcartdata);
+  }, []);
+
+  let increment = (index) => {
+    let updatedcartdata = [...cartdata];
+    updatedcartdata[index].quantity++;
+    setCartdata(updatedcartdata);
+    localStorage.setItem("cart", JSON.stringify(updatedcartdata));
+  };
+
+  let decrement = (index) => {
+    if (cartdata[index] > 0) {
+      let updatedcartdata = [...cartdata];
+      updatedcartdata[index].quantity--;
+      setCartdata(updatedcartdata);
+      localStorage.setItem("cart", JSON.stringify(updatedcartdata));
     }
-  ]
-}
+  };
+
+  let removeItem = (index) => {
+    let updatedcartdata = [...cartdata];
+    updatedcartdata.splice(index, 1);
+    setCartdata(updatedcartdata);
+    localStorage.setItem("cart", JSON.stringify(updatedcartdata));
+  };
+
+  let allitemtotal = cartdata.reduce((total, item, index) => {
+    return total + item.price * item.quantity;
+  }, 0);
+
+  return (
+    <>
+      <section className="cart-part container">
+        {cartdata.map((item, index) => (
+          <div className="row mt-5" key={item.id}>
+            <div className="col-md-2 col-lg-2 col-sm-12">
+              <img
+                src={item.image}
+                alt="cart-img"
+                width="100%"
+                height="200px"
+              />
+            </div>
+
+            <div className="col-md-10 col-lg-10 col-sm-12">
+              <div className="item-details">
+                <h5>{item.fullname}</h5>
+                <h5>Price:- ₹{item.price}/- Only❣</h5>
+                <h5>Variant:- {item.storage}</h5>
+
+                <h5 className="d-flex align-items-center">
+                  Quantity:-
+                  <RemoveCircleOutlineIcon
+                    onClick={() => decrement(index)}
+                    fontSize="small"
+                    className="me-2"
+                  />
+                  {item.quantity}
+                  <ControlPointIcon
+                    onClick={() => increment(index)}
+                    fontSize="small"
+                    className="ms-2"
+                  />
+                </h5>
+
+                <h4>Total:- ₹{item.price * item.quantity}</h4>
+
+                <button
+                  className="btn btn-outline-danger rounded-pill"
+                  onClick={() => removeItem(index)}
+                >
+                  Remove item
+                </button>
+              </div>
+            </div>
+          </div>
+        ))}
+        <hr />
+        <h3 className="text-end">Total Amount: ₹{allitemtotal}</h3>
+        <h5>{cartdata.length}</h5>
+      </section>
+    </>
+  );
+};
+
+export default Cart;
